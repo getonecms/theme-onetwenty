@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    font-size: 16px;
+    font-weight: 1.5rem;
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentcolor;
+}
+
+.bi+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-intro {
+    height: calc(100vh - (3rem + 60.5px));
+    background-image: url('../images/onecms_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

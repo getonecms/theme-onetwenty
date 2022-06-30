@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    font-size: 16px;
+    font-weight: 1.5rem;
+    padding-top: ($spacer * 4);
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentcolor;
+}
+
+.bi+span {
+    display: inline-block;
+    vertical-align: middle;
+}
